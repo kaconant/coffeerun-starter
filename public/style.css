@@ -1,0 +1,15 @@
+.container {
+  background-image: url("img/coffeebackground.jpg"); 
+  padding-top: 10%;
+}
+
+.title {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-weight: 700;
+}
+
+.panel {
+  color: rgba(123,96,22,1);
+  background-color: rgba(246,143,61,.9)
+}
