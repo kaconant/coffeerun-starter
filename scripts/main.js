@@ -21,9 +21,8 @@
             orders = oldOrders; // moved here for 7th section
         };
         */
-    
-        // orders = oldOrders; -- placed here during 5th section
 
+        // orders = oldOrders; -- placed here during 5th section
         // show the old orders to the screen via loop right when page loads // *************** 6th section created
         var oldOrdersHTML = "";
         orders.forEach(function(currentOrder) { // section 7 allows this to work
@@ -85,5 +84,7 @@
             // remove order from screen ***** added with 9th section
             $(this).parent().remove();
         });
+
+        $('#orderList').css('font-family', 'Raleway')
 
     });
