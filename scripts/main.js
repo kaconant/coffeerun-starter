@@ -1,8 +1,6 @@
 var indexOfStorage = [];
-
 var maxValue = 0;
 var orderNumber = 1;
-
 
 $(window).on('load', function(){ 
     for (var i=0; i < localStorage.length; i++) {
